@@ -1,5 +1,5 @@
-# Тестове завдання [✅](https://github.com/oleksiiKAV/TwFollow)
-![preview](https://oleksiikav.github.io/TwFollow)
+# Тестове завдання [✅](https://github.com/oleksiiKAV/Tweets-Follow/)
+[Tweets-Follow](https://oleksiikav.github.io/Tweets-Follow/)
 ###
 <b>Мета:</b> створити картки твітів та додати інтерактивності при клікові на кнопку.
 
