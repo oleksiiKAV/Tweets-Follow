@@ -7,7 +7,7 @@ import { LoadMore } from '../../components/LoadMore/LoadMore';
 import { LinkToBack } from '../../components/LinkToBack/LinkToBack';
 import { scrollOnLoadMore } from '../../helpers/scrollOnLoadMore';
 import { all, follow, followings } from '../../helpers/filter';
-import { Main, Section } from './Tweets.styled';
+import { Main, Section, Text } from './Tweets.styled';
 
 function Tweets() {
   const [users, setUsers] = useState([]);
@@ -102,13 +102,14 @@ function Tweets() {
     <Main>
       <Section>
         <LinkToBack />
+        <Text>The current database has {users.length} users</Text>
         <CardFilter
           handleFilterChange={handleFilterChange}
           resetPage={setPage}
         />
       </Section>
       <section>
-      <p>Total users: {users.length}</p>
+      
         <CardList users={filteredUsers} onClick={handleFollowing} />
         {isLoadMoreVisible && (
           <LoadMore

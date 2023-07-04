@@ -1,3 +1,4 @@
+import { keyframes } from 'styled-components';
 import styled from 'styled-components';
 import logo from '../../assets/logo.png';
 
@@ -13,12 +14,20 @@ export const Main = styled.main`
   background-position: 10px 10px;
 `;
 
-export const Svg = styled.img``;
-export const Text = styled.h2`
-  font-size: 24px;
-  text-align: center;
-  margin-top: 20px;
-  background: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+export const Svg = styled.img`
+border-radius:50%;
+width: 10%;
+  height: 10%;
+  animation: scaleAnimation 2s ease-in-out;
+
+  @keyframes scaleAnimation {
+    0% {
+      width: 10%;
+      height: 10%;
+    }
+    100% {
+      width: 30%;
+      height: 30%;
+    }    
+  }
 `;

@@ -1,5 +1,6 @@
 {
   "name": "tweets_vite",
+  "author": "Oleksii Kormilets",
   "private": true,
   "version": "0.0.0",
   "type": "module",

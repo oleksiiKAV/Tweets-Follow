@@ -74,7 +74,7 @@ export const ThumbInfo = styled.div`
 `;
 
 export const Button = styled.button`
-  padding: 14px 39px;
+  padding: 14px 28px;
   min-width: 196px;
 
   font-weight: 600;
@@ -93,17 +93,17 @@ export const Button = styled.button`
   }
 `;
 
-export const Tooltip = styled.div`
-  position: absolute;
-  top: calc(100% + 4px);
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 6px 10px;
-  border-radius: 4px;
-  background-color: #fff;
-  color: #333;
-  font-size: 14px;
-  font-weight: bold;
-  white-space: nowrap;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-`;
+// export const Tooltip = styled.div`
+//   position: absolute;
+//   top: calc(100% + 4px);
+//   left: 50%;
+//   transform: translateX(-50%);
+//   padding: 6px 10px;
+//   border-radius: 4px;
+//   background-color: #fff;
+//   color: #333;
+//   font-size: 14px;
+//   font-weight: bold;
+//   white-space: nowrap;
+//   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+// `;

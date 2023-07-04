@@ -14,7 +14,7 @@ import {
 export const CardFilter = ({ handleFilterChange, resetPage }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggling = () => setIsOpen(!isOpen);
-
+// console.log("statusFilters = ", statusFilters)
   return (
     <Main>
       <DropDownContainer>
@@ -24,17 +24,18 @@ export const CardFilter = ({ handleFilterChange, resetPage }) => {
         {isOpen && (
           <DropDownListContainer>
             <DropDownList>
-              {Object.keys(statusFilters).map(el => (
+              
+              {Object.entries(statusFilters).map(([key,value]) => (
                 <ListItem
                   key={Math.random()}
                   type="button"
                   onClick={() => {
-                    handleFilterChange(el);
+                    handleFilterChange(value);
                     setIsOpen(false);
                     resetPage(1);
                   }}
                 >
-                  {el}
+                  {value}
                 </ListItem>
               ))}
             </DropDownList>
