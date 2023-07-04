@@ -7,7 +7,7 @@ import { App } from "./components/App";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/Tweets-vite">
+    <BrowserRouter basename="/Tweets-Follow">
       <App />
     </BrowserRouter>
   </React.StrictMode>
