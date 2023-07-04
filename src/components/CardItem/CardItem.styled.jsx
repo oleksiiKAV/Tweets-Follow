@@ -61,7 +61,7 @@ export const ThumbAvatar = styled.div`
 export const AvatarImage = styled.img`
   border-radius: 50%;
   overflow: hidden;
-  cursor: pointer;
+  /* cursor: pointer; */
 `;
 
 export const ThumbInfo = styled.div`
