@@ -32,6 +32,9 @@ export const Link = styled(NavLink)`
   &.active {
     background-color: #471ca9a8;
   }
+  &:not(.active):hover {
+    background-color: #6165c881;
+  }
 `;
 
 export const Footer = styled.footer`
