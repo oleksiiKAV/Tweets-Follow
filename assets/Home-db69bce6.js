@@ -1,4 +1,4 @@
-import{s as t,j as e}from"./index-94a4d115.js";import{l as o}from"./logo-0fe2b947.js";const i=t.main`
+import{s as t,j as e}from"./index-f7f9fbd5.js";import{l as o}from"./logo-0fe2b947.js";const i=t.main`
   display: flex;
   flex-direction: column;
   justify-content: center;
